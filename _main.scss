@@ -5,6 +5,7 @@
 	position: relative;
 	@include flex-row;
 	align-items: flex-start;
+	overflow: hidden;
 }
 .main-wrapper {
 	display: flex;
@@ -12,9 +13,11 @@
 	align-items: center;
 	justify-content: center;
 	position: absolute;
+	left: 80px;
+	top: 80px;
 	// border: 2px yellow solid;
-	max-width: 90%;
-
+	max-width: 60%;
+	overflow: hidden;
 	margin: 0 auto;
 	margin-top: 5rem;
 	z-index: 1;
@@ -27,9 +30,19 @@
 	// border: 1px red solid;
 	z-index: -1;
 }
+.img-saly16 {
+	display: none;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	// border: 1px red solid;
+	z-index: -1;
+}
 .quote-text {
 	font-size: 1.5rem;
 	line-height: 2rem;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 	@include lt-text;
 	padding: 3rem;
@@ -37,7 +50,7 @@
 }
 .author-name {
 	@include lt-text;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 .btn {
 	background-color: white;

@@ -1,0 +1,44 @@
+@media screen and(min-width: 768px) {
+	.quote-text {
+		font-size: 2.5rem;
+		line-height: 3.3rem;
+		letter-spacing: 2px;
+	}
+}
+@media screen and(min-width: 1024px) {
+	.quote-text {
+		font-size: 3rem;
+		line-height: 4rem;
+		letter-spacing: 2.2px;
+	}
+}
+@media screen and(min-width: 1200px) {
+	.quote-text {
+		font-size: 3rem;
+		line-height: 4rem;
+		letter-spacing: 2.2px;
+	}
+	.img-saly17 {
+		display: none;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		// border: 1px red solid;
+		z-index: -1;
+	}
+	.img-saly16 {
+		display: block;
+		// width: 100%;
+		max-width: 60%;
+
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		// border: 1px red solid;
+		z-index: -1;
+	}
+	.fas {
+		font-size: 4rem;
+	}
+}

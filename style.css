@@ -45,8 +45,6 @@ p {
 
 .fas {
   font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 0.2rem;
   color: #ffeeee;
 }
 
@@ -66,6 +64,7 @@ p {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  overflow: hidden;
 }
 
 .main-wrapper {
@@ -83,7 +82,10 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  max-width: 90%;
+  left: 80px;
+  top: 80px;
+  max-width: 60%;
+  overflow: hidden;
   margin: 0 auto;
   margin-top: 5rem;
   z-index: 1;
@@ -97,9 +99,19 @@ p {
   z-index: -1;
 }
 
+.img-saly16 {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
 .quote-text {
   font-size: 1.5rem;
   line-height: 2rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: #ffeeee;
   padding: 3rem;
@@ -108,7 +120,7 @@ p {
 
 .author-name {
   color: #ffeeee;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .btn {
@@ -131,5 +143,48 @@ p {
           transform: scale(1.1);
   -webkit-box-shadow: 2px 2px 8px rgba(58, 58, 58, 0.212);
           box-shadow: 2px 2px 8px rgba(58, 58, 58, 0.212);
+}
+
+@media screen and (min-width: 768px) {
+  .quote-text {
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote-text {
+    font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 2.2px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .quote-text {
+    font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 2.2px;
+  }
+  .img-saly17 {
+    display: none;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .img-saly16 {
+    display: block;
+    max-width: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .fas {
+    font-size: 4rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
