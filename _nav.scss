@@ -1,0 +1,13 @@
+.nav-container {
+	display: flex;
+	// border: 1px red solid;
+	height: 10vh;
+	width: 100%;
+	@include flex-row;
+}
+.fas {
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	@include lt-text;
+}

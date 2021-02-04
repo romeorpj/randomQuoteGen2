@@ -1,0 +1,57 @@
+.main-container {
+	// border: 1px green solid;
+	height: 90vh;
+	max-width: 100%;
+	position: relative;
+	@include flex-row;
+	align-items: flex-start;
+}
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	// border: 2px yellow solid;
+	max-width: 90%;
+
+	margin: 0 auto;
+	margin-top: 5rem;
+	z-index: 1;
+}
+.img-saly17 {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	// border: 1px red solid;
+	z-index: -1;
+}
+.quote-text {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	text-transform: uppercase;
+	@include lt-text;
+	padding: 3rem;
+	text-align: center;
+}
+.author-name {
+	@include lt-text;
+	margin-bottom: 5rem;
+}
+.btn {
+	background-color: white;
+	border-radius: 35px;
+	width: 14.5rem;
+	height: 4rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 2px 2px 6px rgba(58, 58, 58, 0.74);
+	outline: transparent;
+	transition: all 0.1s ease-out;
+	&:active {
+		transform: scale(1.1);
+		box-shadow: 2px 2px 8px rgba(58, 58, 58, 0.212);
+	}
+}
