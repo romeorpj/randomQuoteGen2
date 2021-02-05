@@ -101,11 +101,6 @@ p {
 
 .img-saly16 {
   display: none;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
 }
 
 .quote-text {
@@ -168,12 +163,27 @@ p {
     letter-spacing: 2.2px;
   }
   .bottom-pic {
-    max-width: 100%;
-    border: 1px red solid;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    right: 0;
     z-index: -1;
+  }
+  .footer-img16 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: -150px;
+  }
+  .img-saly16 {
+    display: block;
+    max-width: 60%;
+    position: relative;
   }
   .img-saly17 {
     display: none;
@@ -182,12 +192,6 @@ p {
     bottom: 0;
     right: 0;
     z-index: -1;
-  }
-  .img-saly16 {
-    display: block;
-    max-width: 60%;
-    position: relative;
-    border: 1px green solid;
   }
   .fas {
     font-size: 4rem;

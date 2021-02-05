@@ -1,5 +1,4 @@
 .main-container {
-	// border: 1px green solid;
 	height: 90vh;
 	max-width: 100%;
 	position: relative;
@@ -15,7 +14,6 @@
 	position: absolute;
 	left: 80px;
 	top: 80px;
-	// border: 2px yellow solid;
 	max-width: 60%;
 	overflow: hidden;
 	margin: 0 auto;
@@ -27,17 +25,11 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	// border: 1px red solid;
 	z-index: -1;
 }
+
 .img-saly16 {
 	display: none;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	// border: 1px red solid;
-	z-index: -1;
 }
 .quote-text {
 	font-size: 1.5rem;

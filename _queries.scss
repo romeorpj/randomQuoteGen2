@@ -19,14 +19,26 @@
 		letter-spacing: 2.2px;
 	}
 	.bottom-pic {
-		max-width: 100%;
-		border: 1px red solid;
+		width: 100%;
+		// border: 1px red solid;
 		position: absolute;
 		bottom: 0;
-		right: 0;
 		z-index: -1;
-		// @include flex-row;
-		// justify-content: flex-end;
+	}
+	.footer-img16 {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		right: -150px;
+		// border: 1px red solid;
+	}
+	.img-saly16 {
+		display: block;
+		max-width: 60%;
+		position: relative;
+		// border: 1px green solid;
 	}
 	.img-saly17 {
 		display: none;
@@ -34,15 +46,7 @@
 		position: absolute;
 		bottom: 0;
 		right: 0;
-		// border: 1px red solid;
 		z-index: -1;
-	}
-	.img-saly16 {
-		display: block;
-		// width: 100%;
-		max-width: 60%;
-		position: relative;
-		border: 1px green solid;
 	}
 	.fas {
 		font-size: 4rem;
