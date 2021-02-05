@@ -18,6 +18,16 @@
 		line-height: 4rem;
 		letter-spacing: 2.2px;
 	}
+	.bottom-pic {
+		max-width: 100%;
+		border: 1px red solid;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+		// @include flex-row;
+		// justify-content: flex-end;
+	}
 	.img-saly17 {
 		display: none;
 		width: 100%;
@@ -31,12 +41,8 @@
 		display: block;
 		// width: 100%;
 		max-width: 60%;
-
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		// border: 1px red solid;
-		z-index: -1;
+		position: relative;
+		border: 1px green solid;
 	}
 	.fas {
 		font-size: 4rem;
