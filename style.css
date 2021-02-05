@@ -63,7 +63,6 @@ p {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  border: 1px green solid;
 }
 
 .main-wrapper {
@@ -85,7 +84,6 @@ p {
   max-width: 90%;
   margin-top: 3rem;
   z-index: 1;
-  border: 1px red solid;
   padding: 2rem;
 }
 
@@ -175,7 +173,6 @@ p {
     max-width: 50%;
     margin-top: 5rem;
     z-index: 1;
-    border: 1px red solid;
     padding: 2rem;
   }
   .quote-text {
