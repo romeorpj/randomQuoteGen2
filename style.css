@@ -152,6 +152,10 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
+  * {
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
   .main-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
